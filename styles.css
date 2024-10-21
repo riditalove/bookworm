@@ -1,0 +1,129 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.message{
+  position: sticky;
+  top:0;
+  margin: 0 auto;
+  max-width: 1200px;
+  max-height: min-content;
+  background-color: antiquewhite;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10000;
+}
+
+.message span{
+  font-size: 20rem;
+  color : black;
+}
+
+.message i{
+  cursor: pointer;
+  color: red;
+  font-size: 20rem;
+}
+
+.message i:hover{
+  transform: rotate(90deg);
+}
+
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  color: purple;
+  font-size: 1.8rem;
+  border-radius:  .5rem;
+  text-transform: capitalize;
+}
+
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover{
+  background-color: black;
+  transition: 30ms;
+}
+
+.white-btn,
+
+.btn{
+  background-color: white;
+
+}
+
+.option-btn{
+  background-color: var(--orange);
+}
+
+.delete-btn{
+  background-color: red;
+}
+
+
+.form-container{
+   
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    background-image: url(../10.png);
+    
+ }
+ 
+ .form-container form{
+    padding:2rem;
+    width: 50rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    background-color: var(--white);
+    text-align: center;
+
+ }
+ 
+ .form-container form h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color:var(--black);
+ }
+ 
+ .form-container form .box{
+    width: 100%;
+    border-radius: .5rem;
+    background-color: rgb(255, 255, 255);
+    padding:1.2rem 1.4rem;
+    font-size: 1.8rem;
+    color:var(--black);
+    border:var(--border);
+    margin:1rem 0;
+ }
+
+.form-container form p {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: black; 
+}
+
+ .form-container form p a{
+    color:rgb(0, 43, 122);
+    text-transform: capitalize;
+    text-decoration: none;
+
+ }
+
+ .form-container form p a:hover{
+    text-decoration: underline;
+ }
+
+ 
