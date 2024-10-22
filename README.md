@@ -1,3 +1,8 @@
+This is the demo video of the project
+
+https://github.com/user-attachments/assets/f5f0653f-af18-4e85-8f95-247445ec258d
+
+
 Here some UI of the project.
 
 ![2](https://github.com/user-attachments/assets/bb5ba2c7-3324-4f65-805f-5b141d39b62d)
